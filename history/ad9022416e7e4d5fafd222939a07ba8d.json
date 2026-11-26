@@ -1,0 +1,320 @@
+{
+  "cache_used": false,
+  "data": {
+    "chain": {
+      "cache_used": false,
+      "collected_at_utc": "2026-11-26T14:00:34.298Z",
+      "data": {
+        "defi": {
+          "dex_volume_24h_usd": 4121670.23,
+          "perpetual_volume_24h_usd": null,
+          "perpetual_volume_status": "unavailable_defillama_endpoint_http_402",
+          "protocol_fees_24h_usd": 21641.03,
+          "rwa_status": "unavailable_defillama_plan_or_no_verified_free_endpoint",
+          "rwa_value_usd": null,
+          "stablecoin_circulating_usd": 968830702.6048583,
+          "tvl_usd": 37254998.224076845
+        },
+        "network": {
+          "active_addresses_24h": null,
+          "active_addresses_status": "unavailable_without_persistent_indexer",
+          "block_height": 1210841158,
+          "chain_id": 1,
+          "epoch": 18141,
+          "ledger_version": 8234855958,
+          "network_fees_24h_apt": null,
+          "network_fees_status": "unavailable_without_full_transaction_aggregation",
+          "sample_interval_seconds": 3555.226,
+          "transactions_since_previous_sample": 530517
+        }
+      },
+      "data_age_seconds": 1202.746,
+      "stale_fields_retained": [],
+      "status": "fresh"
+    },
+    "market": {
+      "cache_used": false,
+      "collected_at_utc": "2026-11-26T14:20:36.286Z",
+      "data": {
+        "cross_validation": {
+          "absolute_divergence_bps": 5.942649572759029,
+          "binance_spot_price_usd": 0.3886,
+          "coingecko_price_usd": 0.388831,
+          "within_100_bps": true
+        },
+        "perpetual": {
+          "index_price_usd": 0.388745,
+          "last_funding_rate": -2.537e-05,
+          "last_price_usd": 0.3882,
+          "mark_price_usd": 0.38823483,
+          "next_funding_time_utc": "2026-11-26T16:00:00.000Z",
+          "open_interest_apt": 34247698.6,
+          "quote_volume_24h_usd": 20647145.23232,
+          "source": "Binance USD-M futures public API",
+          "volume_24h_apt": 55647629.8
+        },
+        "spot": {
+          "change_24h_percent": 9.867,
+          "high_24h_usd": 0.3899,
+          "low_24h_usd": 0.3488,
+          "price_usd": 0.3886,
+          "quote_volume_24h_usd": 2594122.401406,
+          "source": "Binance spot public API",
+          "volume_24h_apt": 6996353.5
+        },
+        "valuation_and_supply": {
+          "circulating_supply_apt": 889560279.019629,
+          "fully_diluted_valuation_usd": 471090944.0,
+          "market_cap_usd": 345720195.0,
+          "max_supply_apt": 2100000000.0,
+          "source": "CoinGecko coin market data",
+          "total_supply_apt": 1212147274.5719213
+        }
+      },
+      "data_age_seconds": 0.758,
+      "stale_fields_retained": [],
+      "status": "fresh"
+    },
+    "slow": {
+      "cache_used": false,
+      "collected_at_utc": "2026-11-26T12:10:13.479Z",
+      "data": {
+        "competition": {
+          "aptos": {
+            "dex_volume_24h_usd": 4121670.23,
+            "stablecoin_circulating_usd": 968775053.2760243,
+            "tvl_usd": 37261120.79791079
+          },
+          "solana": {
+            "dex_volume_24h_usd": 1511024370.7999997,
+            "stablecoin_circulating_usd": 12724203009.46101,
+            "tvl_usd": 4610369787.895851
+          },
+          "sui": {
+            "dex_volume_24h_usd": 20505791.0,
+            "stablecoin_circulating_usd": 633065704.3977348,
+            "tvl_usd": 379277646.1239197
+          }
+        },
+        "ecosystem": {
+          "decibel": {
+            "open_interest_metric_24h_usd": 2020336.0,
+            "perpetual_volume_24h_usd": null,
+            "perpetual_volume_status": "unavailable_defillama_derivatives_endpoint_http_402",
+            "protocol_revenue_24h_usd": 13788.0,
+            "protocol_revenue_7d_usd": 83836.0,
+            "source": "DefiLlama public Decibel summaries"
+          },
+          "shelby": {
+            "business_metrics": null,
+            "status": "unavailable_no_verified_public_machine_readable_business_endpoint"
+          }
+        },
+        "tokenomics": {
+          "burned_apt": null,
+          "burned_status": "not_separable_from_supply_delta",
+          "legacy_staking_rate_denominator": "1000000000",
+          "legacy_staking_rate_numerator": "15981",
+          "net_supply_change_since_previous_sample_apt": 12214.088185310364,
+          "next_unlock_amount_apt": null,
+          "next_unlock_time_utc": null,
+          "onchain_total_supply_apt": 1212147430.2810166,
+          "staking_new_issuance_apt": null,
+          "staking_new_issuance_status": "not_separable_from_supply_delta",
+          "staking_reward_rate_per_epoch": 5.936073059360704e-06,
+          "staking_reward_rate_raw_fixed_point64": "109501220528869",
+          "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
+        }
+      },
+      "data_age_seconds": 7823.565,
+      "stale_fields_retained": [],
+      "status": "fresh"
+    }
+  },
+  "data_age_seconds": {
+    "chain": 1202.746,
+    "market": 0.758,
+    "slow": 7823.565
+  },
+  "generated_at_utc": "2026-11-26T14:20:37.043Z",
+  "integrity": {
+    "all_categories_present": true,
+    "generation_consistent": true,
+    "market_cross_validation_pass": true,
+    "no_trading_credentials_required": true
+  },
+  "provider_status": {
+    "chain": {
+      "aptos_fullnode": {
+        "attempts": 1,
+        "elapsed_ms": 315,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_chains": {
+        "attempts": 1,
+        "elapsed_ms": 131,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_dex_aptos": {
+        "attempts": 1,
+        "elapsed_ms": 845,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_fees_aptos": {
+        "attempts": 1,
+        "elapsed_ms": 466,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_stablecoins": {
+        "attempts": 1,
+        "elapsed_ms": 59,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      }
+    },
+    "market": {
+      "binance_funding": {
+        "attempts": 1,
+        "elapsed_ms": 88,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "binance_futures": {
+        "attempts": 1,
+        "elapsed_ms": 91,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "binance_open_interest": {
+        "attempts": 1,
+        "elapsed_ms": 109,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "binance_spot": {
+        "attempts": 1,
+        "elapsed_ms": 162,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "coingecko_aptos": {
+        "attempts": 1,
+        "elapsed_ms": 301,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      }
+    },
+    "slow": {
+      "aptos_staking_config": {
+        "attempts": 1,
+        "elapsed_ms": 91,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "aptos_staking_rewards": {
+        "attempts": 1,
+        "elapsed_ms": 93,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "aptos_supply_view": {
+        "attempts": 1,
+        "elapsed_ms": 158,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_chains": {
+        "attempts": 1,
+        "elapsed_ms": 84,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_decibel_open_interest": {
+        "attempts": 1,
+        "elapsed_ms": 244,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_decibel_revenue": {
+        "attempts": 1,
+        "elapsed_ms": 840,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_dex_aptos": {
+        "attempts": 1,
+        "elapsed_ms": 835,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_dex_solana": {
+        "attempts": 1,
+        "elapsed_ms": 82,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_dex_sui": {
+        "attempts": 1,
+        "elapsed_ms": 855,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      },
+      "defillama_stablecoins": {
+        "attempts": 1,
+        "elapsed_ms": 28,
+        "error": null,
+        "ok": true,
+        "status_code": 200
+      }
+    }
+  },
+  "request_id": "ad9022416e7e4d5fafd222939a07ba8d",
+  "schema_version": "apt-pipeline-v1",
+  "source": [
+    "Binance",
+    "CoinGecko",
+    "DefiLlama",
+    "Aptos official fullnode"
+  ],
+  "source_timestamp": {
+    "chain": {
+      "aptos_fullnode": "2026-11-26T14:00:35.826Z",
+      "defillama": "2026-11-26T14:00:34.298Z"
+    },
+    "market": {
+      "binance_funding": "2026-11-26T14:20:36.001Z",
+      "binance_futures": "2026-11-26T14:20:33.208Z",
+      "binance_open_interest": "2026-11-26T14:20:33.208Z",
+      "binance_spot": "2026-11-26T14:20:35.068Z",
+      "coingecko": "2026-11-26T14:18:56.000Z"
+    },
+    "slow": {
+      "aptos_fullnode": "2026-11-26T12:10:13.479Z",
+      "defillama": "2026-11-26T12:10:13.479Z"
+    }
+  },
+  "symbol": "APTUSDT"
+}
