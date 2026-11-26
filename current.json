@@ -28,22 +28,22 @@
           "transactions_since_previous_sample": null
         }
       },
-      "data_age_seconds": 43.159,
+      "data_age_seconds": 47.275,
       "stale_fields_retained": [],
       "status": "fresh"
     },
     "market": {
       "cache_used": true,
-      "collected_at_utc": "2026-11-26T06:11:40.025Z",
+      "collected_at_utc": "2026-11-26T06:11:44.055Z",
       "data": {
         "cross_validation": {
           "absolute_divergence_bps": 28.545752497752545,
-          "binance_spot_price_usd": 0.3778,
+          "binance_spot_price_usd": 0.378,
           "coingecko_price_usd": 0.37888,
           "within_100_bps": false
         },
         "perpetual": {
-          "index_price_usd": 0.37791,
+          "index_price_usd": 0.37801,
           "last_funding_rate": -4.139e-05,
           "last_price_usd": 0.3779,
           "mark_price_usd": 0.3779,
@@ -54,13 +54,13 @@
           "volume_24h_apt": 65931306.9
         },
         "spot": {
-          "change_24h_percent": 3.083,
+          "change_24h_percent": 3.166,
           "high_24h_usd": 0.3817,
           "low_24h_usd": 0.3488,
-          "price_usd": 0.3778,
-          "quote_volume_24h_usd": 2789832.544427,
+          "price_usd": 0.378,
+          "quote_volume_24h_usd": 2789686.622432,
           "source": "Binance spot public API",
-          "volume_24h_apt": 7666782.29
+          "volume_24h_apt": 7666383.31
         },
         "valuation_and_supply": {
           "circulating_supply_apt": 889544066.5271652,
@@ -71,7 +71,7 @@
           "total_supply_apt": 1212131181.481252
         }
       },
-      "data_age_seconds": 3.728,
+      "data_age_seconds": 3.814,
       "stale_fields_retained": [
         "cross_validation.absolute_divergence_bps",
         "cross_validation.coingecko_price_usd",
@@ -134,17 +134,17 @@
           "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
         }
       },
-      "data_age_seconds": 42.268,
+      "data_age_seconds": 46.384,
       "stale_fields_retained": [],
       "status": "fresh"
     }
   },
   "data_age_seconds": {
-    "chain": 43.159,
-    "market": 3.728,
-    "slow": 42.268
+    "chain": 47.275,
+    "market": 3.814,
+    "slow": 46.384
   },
-  "generated_at_utc": "2026-11-26T06:11:43.753Z",
+  "generated_at_utc": "2026-11-26T06:11:47.868Z",
   "integrity": {
     "all_categories_present": true,
     "generation_consistent": true,
@@ -192,35 +192,35 @@
     "market": {
       "binance_funding": {
         "attempts": 1,
-        "elapsed_ms": 89,
+        "elapsed_ms": 88,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "binance_futures": {
         "attempts": 1,
-        "elapsed_ms": 91,
+        "elapsed_ms": 87,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "binance_open_interest": {
         "attempts": 1,
-        "elapsed_ms": 94,
+        "elapsed_ms": 92,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "binance_spot": {
         "attempts": 1,
-        "elapsed_ms": 149,
+        "elapsed_ms": 148,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "coingecko_aptos": {
         "attempts": 3,
-        "elapsed_ms": 3299,
+        "elapsed_ms": 3394,
         "error": "http_429",
         "ok": false,
         "status_code": 429
@@ -299,7 +299,7 @@
       }
     }
   },
-  "request_id": "05d38faf9ff6436caba03167bc1d7c9d",
+  "request_id": "653b21c041a8469c9b00dc80eda79d56",
   "schema_version": "apt-pipeline-v1",
   "source": [
     "Binance",
@@ -313,10 +313,10 @@
       "defillama": "2026-11-26T06:11:00.594Z"
     },
     "market": {
-      "binance_funding": "2026-11-26T06:11:40.000Z",
+      "binance_funding": "2026-11-26T06:11:44.001Z",
       "binance_futures": "2026-11-26T06:11:34.085Z",
       "binance_open_interest": "2026-11-26T06:11:34.085Z",
-      "binance_spot": "2026-11-26T06:11:35.131Z",
+      "binance_spot": "2026-11-26T06:11:44.129Z",
       "coingecko": null
     },
     "slow": {
