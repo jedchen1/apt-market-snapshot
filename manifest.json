@@ -1,12 +1,12 @@
 {
   "atomic_publish_contract": "Resolve main to one commit SHA, then read manifest.json and current.json from that SHA.",
-  "current_sha256": "f5c85481df231dbeeadd8d07617f80c33f5280b14125d054a8063e67a80f87a9",
+  "current_sha256": "4eeaf50b2a49c339a047ea06ef168d7d5233d426940992124ce36abeb49b4a89",
   "files": [
     "current.json",
-    "history/99a31e2b8c08428ba27a53f3cc9d0a9d.json"
+    "history/3fd1b110e0c646d3aba42488ce2b27e7.json"
   ],
-  "generated_at_utc": "2026-11-26T21:00:44.048Z",
-  "request_id": "99a31e2b8c08428ba27a53f3cc9d0a9d",
+  "generated_at_utc": "2026-11-26T21:05:14.150Z",
+  "request_id": "3fd1b110e0c646d3aba42488ce2b27e7",
   "schema_version": "apt-pipeline-v1",
   "symbol": "APTUSDT"
 }
