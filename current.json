@@ -3,7 +3,7 @@
   "data": {
     "chain": {
       "cache_used": false,
-      "collected_at_utc": "2026-11-26T13:01:19.158Z",
+      "collected_at_utc": "2026-11-26T14:00:34.298Z",
       "data": {
         "defi": {
           "dex_volume_24h_usd": 4121670.23,
@@ -12,23 +12,23 @@
           "protocol_fees_24h_usd": 21641.03,
           "rwa_status": "unavailable_defillama_plan_or_no_verified_free_endpoint",
           "rwa_value_usd": null,
-          "stablecoin_circulating_usd": 968775053.2760243,
-          "tvl_usd": 37266089.36998727
+          "stablecoin_circulating_usd": 968830702.6048583,
+          "tvl_usd": 37254998.224076845
         },
         "network": {
           "active_addresses_24h": null,
           "active_addresses_status": "unavailable_without_persistent_indexer",
-          "block_height": 1210745806,
+          "block_height": 1210841158,
           "chain_id": 1,
-          "epoch": 18140,
-          "ledger_version": 8234325441,
+          "epoch": 18141,
+          "ledger_version": 8234855958,
           "network_fees_24h_apt": null,
           "network_fees_status": "unavailable_without_full_transaction_aggregation",
-          "sample_interval_seconds": 3670.206,
-          "transactions_since_previous_sample": 567627
+          "sample_interval_seconds": 3555.226,
+          "transactions_since_previous_sample": 530517
         }
       },
-      "data_age_seconds": 3551.497,
+      "data_age_seconds": 1.827,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -71,7 +71,7 @@
           "total_supply_apt": 1212147274.5719213
         }
       },
-      "data_age_seconds": 0.801,
+      "data_age_seconds": 6.271,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -126,17 +126,17 @@
           "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
         }
       },
-      "data_age_seconds": 6617.176,
+      "data_age_seconds": 6622.646,
       "stale_fields_retained": [],
       "status": "fresh"
     }
   },
   "data_age_seconds": {
-    "chain": 3551.497,
-    "market": 0.801,
-    "slow": 6617.176
+    "chain": 1.827,
+    "market": 6.271,
+    "slow": 6622.646
   },
-  "generated_at_utc": "2026-11-26T14:00:30.655Z",
+  "generated_at_utc": "2026-11-26T14:00:36.124Z",
   "integrity": {
     "all_categories_present": true,
     "generation_consistent": true,
@@ -147,35 +147,35 @@
     "chain": {
       "aptos_fullnode": {
         "attempts": 1,
-        "elapsed_ms": 98,
+        "elapsed_ms": 315,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_chains": {
         "attempts": 1,
-        "elapsed_ms": 171,
+        "elapsed_ms": 131,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_dex_aptos": {
         "attempts": 1,
-        "elapsed_ms": 854,
+        "elapsed_ms": 845,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_fees_aptos": {
         "attempts": 1,
-        "elapsed_ms": 470,
+        "elapsed_ms": 466,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_stablecoins": {
         "attempts": 1,
-        "elapsed_ms": 80,
+        "elapsed_ms": 59,
         "error": null,
         "ok": true,
         "status_code": 200
@@ -291,7 +291,7 @@
       }
     }
   },
-  "request_id": "bb3e8896e9204e66a05c37ea2d13a4cd",
+  "request_id": "050fe4c4f651409aad085cd344b9738f",
   "schema_version": "apt-pipeline-v1",
   "source": [
     "Binance",
@@ -301,8 +301,8 @@
   ],
   "source_timestamp": {
     "chain": {
-      "aptos_fullnode": "2026-11-26T13:01:20.600Z",
-      "defillama": "2026-11-26T13:01:19.158Z"
+      "aptos_fullnode": "2026-11-26T14:00:35.826Z",
+      "defillama": "2026-11-26T14:00:34.298Z"
     },
     "market": {
       "binance_funding": "2026-11-26T14:00:30.000Z",
