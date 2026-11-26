@@ -28,50 +28,50 @@
           "transactions_since_previous_sample": 504791
         }
       },
-      "data_age_seconds": 896.027,
+      "data_age_seconds": 1218.699,
       "stale_fields_retained": [],
       "status": "fresh"
     },
     "market": {
       "cache_used": false,
-      "collected_at_utc": "2026-11-26T23:15:13.486Z",
+      "collected_at_utc": "2026-11-26T23:20:36.298Z",
       "data": {
         "cross_validation": {
-          "absolute_divergence_bps": 6.6392557760212165,
-          "binance_spot_price_usd": 0.3827,
-          "coingecko_price_usd": 0.382446,
+          "absolute_divergence_bps": 12.920200760042434,
+          "binance_spot_price_usd": 0.3821,
+          "coingecko_price_usd": 0.382594,
           "within_100_bps": true
         },
         "perpetual": {
-          "index_price_usd": 0.382725,
-          "last_funding_rate": -5.589e-05,
-          "last_price_usd": 0.3825,
-          "mark_price_usd": 0.3825,
+          "index_price_usd": 0.38214,
+          "last_funding_rate": -5.262e-05,
+          "last_price_usd": 0.3818,
+          "mark_price_usd": 0.38178925,
           "next_funding_time_utc": "2026-11-27T00:00:00.000Z",
-          "open_interest_apt": 33954804.4,
-          "quote_volume_24h_usd": 17666523.58366,
+          "open_interest_apt": 33995844.3,
+          "quote_volume_24h_usd": 17191997.66797,
           "source": "Binance USD-M futures public API",
-          "volume_24h_apt": 46274357.0
+          "volume_24h_apt": 44992545.6
         },
         "spot": {
-          "change_24h_percent": 3.154,
+          "change_24h_percent": 2.605,
           "high_24h_usd": 0.3913,
           "low_24h_usd": 0.371,
-          "price_usd": 0.3827,
-          "quote_volume_24h_usd": 2158945.947701,
+          "price_usd": 0.3821,
+          "quote_volume_24h_usd": 2183753.703945,
           "source": "Binance spot public API",
-          "volume_24h_apt": 5636339.98
+          "volume_24h_apt": 5699575.4
         },
         "valuation_and_supply": {
           "circulating_supply_apt": 889580626.4501846,
-          "fully_diluted_valuation_usd": 463755383.0,
-          "market_cap_usd": 340340088.0,
+          "fully_diluted_valuation_usd": 463766240.0,
+          "market_cap_usd": 340348056.0,
           "max_supply_apt": 2100000000.0,
           "source": "CoinGecko coin market data",
           "total_supply_apt": 1212163418.468357
         }
       },
-      "data_age_seconds": 0.957,
+      "data_age_seconds": 0.817,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -126,17 +126,17 @@
           "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
         }
       },
-      "data_age_seconds": 18287.116,
+      "data_age_seconds": 18609.788,
       "stale_fields_retained": [],
       "status": "fresh"
     }
   },
   "data_age_seconds": {
-    "chain": 896.027,
-    "market": 0.957,
-    "slow": 18287.116
+    "chain": 1218.699,
+    "market": 0.817,
+    "slow": 18609.788
   },
-  "generated_at_utc": "2026-11-26T23:15:14.442Z",
+  "generated_at_utc": "2026-11-26T23:20:37.115Z",
   "integrity": {
     "all_categories_present": true,
     "generation_consistent": true,
@@ -191,28 +191,28 @@
       },
       "binance_futures": {
         "attempts": 1,
-        "elapsed_ms": 89,
+        "elapsed_ms": 87,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "binance_open_interest": {
         "attempts": 1,
-        "elapsed_ms": 93,
+        "elapsed_ms": 95,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "binance_spot": {
         "attempts": 1,
-        "elapsed_ms": 166,
+        "elapsed_ms": 165,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "coingecko_aptos": {
         "attempts": 1,
-        "elapsed_ms": 502,
+        "elapsed_ms": 378,
         "error": null,
         "ok": true,
         "status_code": 200
@@ -291,7 +291,7 @@
       }
     }
   },
-  "request_id": "f60e43b2be6149aa9c39078793bbba41",
+  "request_id": "9b5aae1afa1e4e608cc554e8e27ccf89",
   "schema_version": "apt-pipeline-v1",
   "source": [
     "Binance",
@@ -305,11 +305,11 @@
       "defillama": "2026-11-26T23:00:18.416Z"
     },
     "market": {
-      "binance_funding": "2026-11-26T23:15:13.000Z",
-      "binance_futures": "2026-11-26T23:15:05.303Z",
-      "binance_open_interest": "2026-11-26T23:15:05.303Z",
-      "binance_spot": "2026-11-26T23:15:12.965Z",
-      "coingecko": "2026-11-26T23:14:59.000Z"
+      "binance_funding": "2026-11-26T23:20:36.000Z",
+      "binance_futures": "2026-11-26T23:20:29.055Z",
+      "binance_open_interest": "2026-11-26T23:20:31.056Z",
+      "binance_spot": "2026-11-26T23:20:31.960Z",
+      "coingecko": "2026-11-26T23:19:50.000Z"
     },
     "slow": {
       "aptos_fullnode": "2026-11-26T18:10:27.327Z",
