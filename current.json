@@ -3,32 +3,32 @@
   "data": {
     "chain": {
       "cache_used": false,
-      "collected_at_utc": "2026-11-27T00:00:40.791Z",
+      "collected_at_utc": "2026-11-27T01:00:37.989Z",
       "data": {
         "defi": {
-          "dex_volume_24h_usd": 4121670.23,
+          "dex_volume_24h_usd": 4196514.51,
           "perpetual_volume_24h_usd": null,
           "perpetual_volume_status": "unavailable_defillama_endpoint_http_402",
-          "protocol_fees_24h_usd": 21641.03,
+          "protocol_fees_24h_usd": 22263.15,
           "rwa_status": "unavailable_defillama_plan_or_no_verified_free_endpoint",
           "rwa_value_usd": null,
-          "stablecoin_circulating_usd": 970680824.003287,
-          "tvl_usd": 37022223.27294572
+          "stablecoin_circulating_usd": 971076641.3393959,
+          "tvl_usd": 37023246.649690405
         },
         "network": {
           "active_addresses_24h": null,
           "active_addresses_status": "unavailable_without_persistent_indexer",
-          "block_height": 1211802767,
+          "block_height": 1211897187,
           "chain_id": 1,
           "epoch": 18146,
-          "ledger_version": 8240295943,
+          "ledger_version": 8240871502,
           "network_fees_24h_apt": null,
           "network_fees_status": "unavailable_without_full_transaction_aggregation",
-          "sample_interval_seconds": 3623.075,
-          "transactions_since_previous_sample": 548352
+          "sample_interval_seconds": 3596.96,
+          "transactions_since_previous_sample": 575559
         }
       },
-      "data_age_seconds": 3589.246,
+      "data_age_seconds": 1.684,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -71,7 +71,7 @@
           "total_supply_apt": 1212171791.456472
         }
       },
-      "data_age_seconds": 16.559,
+      "data_age_seconds": 26.195,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -126,17 +126,17 @@
           "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
         }
       },
-      "data_age_seconds": 2956.488,
+      "data_age_seconds": 2966.124,
       "stale_fields_retained": [],
       "status": "fresh"
     }
   },
   "data_age_seconds": {
-    "chain": 3589.246,
-    "market": 16.559,
-    "slow": 2956.488
+    "chain": 1.684,
+    "market": 26.195,
+    "slow": 2966.124
   },
-  "generated_at_utc": "2026-11-27T01:00:30.037Z",
+  "generated_at_utc": "2026-11-27T01:00:39.672Z",
   "integrity": {
     "all_categories_present": true,
     "generation_consistent": true,
@@ -147,35 +147,35 @@
     "chain": {
       "aptos_fullnode": {
         "attempts": 1,
-        "elapsed_ms": 94,
+        "elapsed_ms": 86,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_chains": {
         "attempts": 1,
-        "elapsed_ms": 124,
+        "elapsed_ms": 97,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_dex_aptos": {
         "attempts": 1,
-        "elapsed_ms": 587,
+        "elapsed_ms": 810,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_fees_aptos": {
         "attempts": 1,
-        "elapsed_ms": 1178,
+        "elapsed_ms": 654,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_stablecoins": {
         "attempts": 1,
-        "elapsed_ms": 28,
+        "elapsed_ms": 30,
         "error": null,
         "ok": true,
         "status_code": 200
@@ -291,7 +291,7 @@
       }
     }
   },
-  "request_id": "bbac4aa27a1e4124b03d075f2b64a2ef",
+  "request_id": "8229299144f14b4c8b7008acd079605d",
   "schema_version": "apt-pipeline-v1",
   "source": [
     "Binance",
@@ -301,8 +301,8 @@
   ],
   "source_timestamp": {
     "chain": {
-      "aptos_fullnode": "2026-11-27T00:00:42.462Z",
-      "defillama": "2026-11-27T00:00:40.791Z"
+      "aptos_fullnode": "2026-11-27T01:00:39.422Z",
+      "defillama": "2026-11-27T01:00:37.989Z"
     },
     "market": {
       "binance_funding": "2026-11-27T01:00:13.000Z",
