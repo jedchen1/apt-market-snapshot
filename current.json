@@ -3,32 +3,32 @@
   "data": {
     "chain": {
       "cache_used": false,
-      "collected_at_utc": "2026-11-27T03:00:27.297Z",
+      "collected_at_utc": "2026-11-27T04:00:40.636Z",
       "data": {
         "defi": {
           "dex_volume_24h_usd": 487340.94,
           "perpetual_volume_24h_usd": null,
           "perpetual_volume_status": "unavailable_defillama_endpoint_http_402",
-          "protocol_fees_24h_usd": 22061.25,
+          "protocol_fees_24h_usd": 21879.25,
           "rwa_status": "unavailable_defillama_plan_or_no_verified_free_endpoint",
           "rwa_value_usd": null,
-          "stablecoin_circulating_usd": 971324198.6239588,
-          "tvl_usd": 37035249.90370609
+          "stablecoin_circulating_usd": 971353204.5630565,
+          "tvl_usd": 37036402.35042062
         },
         "network": {
           "active_addresses_24h": null,
           "active_addresses_status": "unavailable_without_persistent_indexer",
-          "block_height": 1212084324,
+          "block_height": 1212180346,
           "chain_id": 1,
-          "epoch": 18147,
-          "ledger_version": 8242186256,
+          "epoch": 18148,
+          "ledger_version": 8242803692,
           "network_fees_24h_apt": null,
           "network_fees_status": "unavailable_without_full_transaction_aggregation",
-          "sample_interval_seconds": 3598.936,
-          "transactions_since_previous_sample": 706724
+          "sample_interval_seconds": 3618.378,
+          "transactions_since_previous_sample": 617436
         }
       },
-      "data_age_seconds": 3609.798,
+      "data_age_seconds": 6.567,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -71,7 +71,7 @@
           "total_supply_apt": 1212175737.3728712
         }
       },
-      "data_age_seconds": 0.76,
+      "data_age_seconds": 10.868,
       "stale_fields_retained": [],
       "status": "fresh"
     },
@@ -126,17 +126,17 @@
           "unlock_status": "unavailable_no_verified_official_machine_readable_endpoint"
         }
       },
-      "data_age_seconds": 13763.546,
+      "data_age_seconds": 13773.654,
       "stale_fields_retained": [],
       "status": "fresh"
     }
   },
   "data_age_seconds": {
-    "chain": 3609.798,
-    "market": 0.76,
-    "slow": 13763.546
+    "chain": 6.567,
+    "market": 10.868,
+    "slow": 13773.654
   },
-  "generated_at_utc": "2026-11-27T04:00:37.095Z",
+  "generated_at_utc": "2026-11-27T04:00:47.203Z",
   "integrity": {
     "all_categories_present": true,
     "generation_consistent": true,
@@ -147,35 +147,35 @@
     "chain": {
       "aptos_fullnode": {
         "attempts": 1,
-        "elapsed_ms": 104,
+        "elapsed_ms": 299,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_chains": {
         "attempts": 1,
-        "elapsed_ms": 90,
+        "elapsed_ms": 107,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_dex_aptos": {
         "attempts": 1,
-        "elapsed_ms": 805,
+        "elapsed_ms": 1689,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_fees_aptos": {
         "attempts": 1,
-        "elapsed_ms": 437,
+        "elapsed_ms": 4391,
         "error": null,
         "ok": true,
         "status_code": 200
       },
       "defillama_stablecoins": {
         "attempts": 1,
-        "elapsed_ms": 61,
+        "elapsed_ms": 71,
         "error": null,
         "ok": true,
         "status_code": 200
@@ -291,7 +291,7 @@
       }
     }
   },
-  "request_id": "c966d2c0854e48a5975ce49f44a0fe27",
+  "request_id": "44aa8aa15c204f199262e39d6e235fe1",
   "schema_version": "apt-pipeline-v1",
   "source": [
     "Binance",
@@ -301,8 +301,8 @@
   ],
   "source_timestamp": {
     "chain": {
-      "aptos_fullnode": "2026-11-27T03:00:28.437Z",
-      "defillama": "2026-11-27T03:00:27.297Z"
+      "aptos_fullnode": "2026-11-27T04:00:46.815Z",
+      "defillama": "2026-11-27T04:00:40.636Z"
     },
     "market": {
       "binance_funding": "2026-11-27T04:00:36.000Z",
